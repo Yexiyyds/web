@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+
+    <servlet>
+        <servlet-name>TestServlet</servlet-name>
+        <servlet-class>test</servlet-class>
+    </servlet>
+ 
+    <servlet-mapping>
+        <servlet-name>TestServlet</servlet-name>
+        <url-pattern>/t0</url-pattern>
+    </servlet-mapping>
+    
+    <!-- <servlet>
+        <servlet-name></servlet-name>
+        <servlet-class></servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name></servlet-name>
+        <url-pattern></url-pattern>
+    </servlet-mapping> -->
+    <servlet>
+        <servlet-name>test0</servlet-name>
+        <servlet-class>test0</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>test0</servlet-name>
+        <url-pattern>/t1</url-pattern>
+    </servlet-mapping>
+</web-app>
